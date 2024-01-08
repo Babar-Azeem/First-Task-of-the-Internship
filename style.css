@@ -1,0 +1,53 @@
+body {
+    text-align: center;
+}
+
+.mid {
+    text-align: end;
+}
+
+.cen {
+    text-align: center;
+    padding: 0px 70px;
+}
+
+.title {
+    color: #fff;
+    width: 275px;
+    text-align: center;
+    background-color: rgb(196, 31, 196);
+    margin: 10px auto;
+    border-radius: 5px; 
+    box-shadow: 2px 2px 8px black;
+}
+
+.dashed-line {
+    width: 70%;
+    border: 1.750px dashed rgb(196, 31, 196);
+  }
+
+img {
+    width: 125px;
+    height: 125px;
+}
+
+.empCards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flagR {
+    width: 50px;
+    display: inline-block;
+    border-top: 25px solid rgb(196, 31, 196);
+    border-left: 25px solid transparent;
+    border-bottom: 25px solid rgb(196, 31, 196);
+}
+
+.flagL {
+    width: 50px;
+    border-top: 25px solid rgb(196, 31, 196);
+    border-right: 25px solid transparent;
+    border-bottom: 25px solid rgb(196, 31, 196);
+}
+
